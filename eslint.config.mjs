@@ -1,18 +1,22 @@
-import config from '@signpostmarv/eslint-config';
-import parser from '@typescript-eslint/parser';
+import {
+	typescript,
+} from '@signpostmarv/eslint-config';
 
-export default [
+const config = [
 	{
 		languageOptions: {
-			parser,
+			parser: '@typescript-eslint/parser',
 			parserOptions: {
 				project: ['./tsconfig.eslint.json'],
 			},
 		},
 	},
-	...config,
+	...typescript,
 	{
 		files: ['**/*.ts'],
 		ignores: ['**/*.d.ts', '**/*.js', '**/*.mjs'],
 	},
 ];
+
+// eslint-disable-next-line imports/no-default-export
+export default config;

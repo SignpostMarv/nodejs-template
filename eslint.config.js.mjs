@@ -10,5 +10,5 @@ const config = [
 	},
 ];
 
-// eslint-disable-next-line imports/no-default-export
+
 export default config;

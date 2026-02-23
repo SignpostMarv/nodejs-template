@@ -11,17 +11,17 @@
   "exports": "./index.js",
   "types": "./index.d.ts",
   "devDependencies": {
-    "@signpostmarv/eslint-config": "^0.8.1",
+    "@signpostmarv/eslint-config": "^0.8.2",
     "@types/eslint": "^9.6.1",
     "@types/node": "^25.3.0",
-    "@typescript-eslint/parser": "^8.56.0",
+    "@typescript-eslint/parser": "^8.56.1",
     "c8": "^11.0.0",
     "eslint": "^10.0.1",
     "prettier": "^3.8.1",
     "typescript": "~5.9.2",
-    "typescript-eslint": "^8.56.0"
+    "typescript-eslint": "^8.56.1"
   },
   "optionalDependencies": {
-    "@typescript-eslint/parser": "^8.56.0"
+    "@typescript-eslint/parser": "^8.56.1"
   }
 }

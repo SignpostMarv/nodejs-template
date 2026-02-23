@@ -11,7 +11,7 @@
   "exports": "./index.js",
   "types": "./index.d.ts",
   "devDependencies": {
-    "@signpostmarv/eslint-config": "^0.8.0",
+    "@signpostmarv/eslint-config": "^0.8.1",
     "@types/eslint": "^9.6.1",
     "@types/node": "^25.3.0",
     "@typescript-eslint/parser": "^8.56.0",

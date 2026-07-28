@@ -11,10 +11,10 @@
   "exports": "./index.js",
   "types": "./index.d.ts",
   "devDependencies": {
-    "@signpostmarv/oxlint-config": "^0.3.0",
+    "@signpostmarv/oxlint-config": "^0.4.0",
     "@types/node": "^26.1.2",
-    "oxlint": "^1.59.0",
-    "oxlint-tsgolint": "^0.20.0",
+    "oxlint": "^1.76.0",
+    "oxlint-tsgolint": "^7.0.2001",
     "prettier": "^3.9.6",
     "typescript": "~6.0.2"
   }

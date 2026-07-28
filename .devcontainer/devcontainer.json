@@ -18,6 +18,7 @@
 				"ms-vscode.makefile-tools"
 			],
 			"settings": {
+				"editor.tabMovesFocus": false,
 				"explorer.fileNesting.patterns": {
 					"*.cjs.ts": "${basename}, ${basename}.map",
 					"*.ts": "${capture}.js, ${capture}.d.ts",
